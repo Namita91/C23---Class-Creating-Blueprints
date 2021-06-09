@@ -22,4 +22,4 @@ class Ground {
         rect(pos.x, pos.y, this.w, this.h);
         pop();
     }
-}
+} //just for the heck of it

@@ -30,6 +30,7 @@ function draw() {
   background(0);
   
   //regularly update the physics engine
+  //we could also use Engine.run(myEngine) in setup() as it already has a loop within
   Engine.update(myEngine);
 
   //calling display function for both the class's objects to render the physics bodies on canvas
